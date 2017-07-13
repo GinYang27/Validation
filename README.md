@@ -1,0 +1,2 @@
+# Validation
+Standard angularJS validation
