@@ -10,5 +10,9 @@ I try to use a standard angularJS validation. It seems more comprehensive than I
    required if length=0 contactForm.content.$error.required = true  show error message2
   
 Tip 1: For $submitted, input submit must in <form>.
+
 Tip 2: $submitted is a key to prove that angularjs validation has conflicts with html validation. So we must NOVALIDATE html validation.
+
 Tip 3: ng-click=contractForm.$invalid || ctrl.send()
+
+Tip 4: To achieve validation, name and ng-model must be same.
