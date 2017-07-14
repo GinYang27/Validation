@@ -9,7 +9,7 @@ I try to use a standard angularJS validation. It seems more comprehensive than I
 2. ng-maxlength = "1000" if length>1000 contactForm.content.$error.maxlength = true show error message1
    required if length=0 contactForm.content.$error.required = true  show error message2
   
-Tip 1: For $submitted, input submit must in <form>.
+Tip 1: For $submitted, input submit must in div form.
 
 Tip 2: $submitted is a key to prove that angularjs validation has conflicts with html validation. So we must NOVALIDATE html validation.
 
